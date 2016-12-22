@@ -23,10 +23,12 @@ $ ./imgprep.sh
 Flash Binaries:
 
 1. Open another terminal window in order to start gdb server. Write the command (Linux):
+
    ```bash
    $ JLinkGDBServer -ir -if swd -speed auto -device Cortex-M0 -logtofile on -localhostonly
    ```
 2. Return to previous terminal window and execute a command in order to flash the board:
+
    ```bash
    $ ./cli_programmer -b uartboot.bin gdbserver write_qspi 0x0 ../../../output/bin/arm-none-eabi-ot-cli-ftd.img
    ```
@@ -34,6 +36,7 @@ Flash Binaries:
 ## Interact:
 
 Board will indicate state of device according to LED blink speed.
+
 | Frequency | Role |
 | --- | --- |
 | 5Hz | Leader |
