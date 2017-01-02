@@ -26,7 +26,7 @@ $ ./imgprep.sh
 
 Flash Binaries:
 
-NOTE: Flashing process requires JLinkGDBServer. Please visit https://www.segger.com/jlink-gdb-server.html for details.
+**NOTE:** Flashing process requires JLinkGDBServer. Please visit https://www.segger.com/jlink-gdb-server.html for details.
 
 1. Open another terminal window in order to start gdb server. Write the command (Linux):
 
