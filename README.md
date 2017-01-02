@@ -4,7 +4,8 @@ This directory contains example platform drivers for the [Dialog Semiconductor D
 
 [da15000]: https://support.dialog-semiconductor.com/connectivity/product/openthread-sandbox
 
-**NOTE:** Each Thread node requires a unique EUI-64.→→Please make sure all Thread nodes in your network have a unique EUI-64 by setting NODE_ID in radio.c to a unique value.
+**NOTE:** Each Thread node requires a unique EUI-64. 
+Please make sure all Thread nodes in your network have a unique EUI-64 by setting NODE_ID in radio.c to a unique value.
 
 ## Build Examples (How to build and flash):
 ```bash
