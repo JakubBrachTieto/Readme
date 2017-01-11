@@ -109,6 +109,7 @@ Board will indicate state of device according to LED blink speed.
    > ping fdde:ad00:beef:0:92f5:9844:67ad:a0c9
    16 bytes from fdde:ad00:beef:0:92f5:9844:67ad:a0c9: icmp_seq=2 hlim=64 time=359ms
    ```
+
 ## Remarks
 * Validation
 
